@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8"/>
+    <title>Task2</title>
+</head>
+<body>
+    <script>
+      restart:
+		for (var i = 2; i < 100; i++) {
+			for (var j = 2; j < i; j++) {
+				if ( i % j == 0 )
+					continue restart;
+			}
+          alert (i);
+		}
+    </script>
+</body>
+</html>
